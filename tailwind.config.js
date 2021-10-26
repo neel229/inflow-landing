@@ -3,6 +3,12 @@ module.exports = {
   purge: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      colors: {
+        crimson: '#AE1955',
+        violet: '#5842C3',
+      },
+    },
     linearBorderGradients: {
       directions: {
         // defaults to these values
@@ -17,9 +23,6 @@ module.exports = {
       },
       colors: {
         'crimson-violet': ['#AE1955', '#5842C3'],
-        gray: {
-          DEFAULT: '#1e1e1e',
-        },
       },
       background: {
         'gray-900': '#000000',

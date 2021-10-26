@@ -27,7 +27,7 @@ const Nav = (): JSX.Element => {
       </ul>
       <button
         type="button"
-        className="inline-flex items-center border-gradient-br-crimson-violet-gray-900 border-transparent border-solid border-2 rounded-xl text-gray-100 text-lg bg-transparent ml-4 px-3 py-2"
+        className="inline-flex items-center border-gradient-br-crimson-violet-gray-900 border-transparent border-solid border-2 rounded-xl text-gray-100 text-lg bg-transparent ml-4 px-3 py-2 hover:bg-gradient-to-br hover:from-crimson hover:to-violet"
       >
         Join Waitlist
       </button>
